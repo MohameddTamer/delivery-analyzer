@@ -1,0 +1,13 @@
+order_id,courier,area,status,failure_reason,shipping_out,shipping_return
+1001,Courier A,Tanta,delivered,,60,0
+1002,Courier A,Tanta,failed,customer refused,60,60
+1003,Courier B,Kafr El Zayat,failed,no answer,55,55
+1004,Courier B,El Mahalla,delivered,,55,0
+1005,Courier A,El Mahalla,failed,wrong address,60,60
+1006,Courier C,Tanta,delivered,,50,0
+1007,Courier C,Zefta,failed,no answer,50,50
+1008,Courier B,Kafr El Zayat,delivered,,55,0
+1009,Courier A,Tanta,failed,customer refused,60,60
+1010,Courier C,Zefta,delivered,,50,0
+1011,Courier B,El Mahalla,failed,wrong address,55,55
+1012,Courier A,El Mahalla,delivered,,60,0
