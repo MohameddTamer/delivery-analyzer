@@ -1,4 +1,4 @@
-# Design — Delivery Analyzer report
+# Design, Delivery Analyzer report
 
 ## Concept
 
@@ -21,7 +21,7 @@ is nothing.
 
 ## Type
 
-**JetBrains Mono**, one face, every size — Google Fonts with a
+**JetBrains Mono**, one face, every size, Google Fonts with a
 `ui-monospace / Cascadia Mono / Menlo / Consolas` fallback stack. Weight 400
 carries the sheet, 700 marks the section heads and the wordmark. Mono is
 tabular by birth, so every column of figures aligns without being asked.
@@ -33,7 +33,7 @@ scale; a report is read at arm's length, top to bottom, once.
 The report *runs* when it opens. Lines appear in sequence, a few dozen
 milliseconds apart, the way the tool printed them, and the sheet ends on the
 verdict line with a blinking block cursor after it. Once. Then it is still
-forever — a printed run does not keep performing. Under
+forever, a printed run does not keep performing. Under
 `prefers-reduced-motion` the whole sheet is simply there, and the final state
 is identical either way: the motion is the order of reading, never information.
 
@@ -44,7 +44,7 @@ clothes.
 
 ## Deliberate avoidances
 
-- No SVG charts, no cards, no border radius, no shadows — the sheet is one
+- No SVG charts, no cards, no border radius, no shadows, the sheet is one
   column of text ruled by hairlines.
 - No scanlines, no glow, no CRT cosplay. The phosphor is a colour, not an effect.
 - No red for failure, no traffic-light palette, no pill badges.

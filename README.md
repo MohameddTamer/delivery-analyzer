@@ -21,7 +21,7 @@ python3 analyzer.py sample_orders.csv --report report.html
 python3 analyzer.py sample_orders.csv --strict
 ```
 
-`--report` writes a standalone HTML report styled as what it is: the terminal run, printed. One typeface (JetBrains Mono), the literal command that produced it at the top, and the failure charts drawn in block characters (▁▂▅█) — the same artifact the CLI prints, not a dashboard costume over it. Bars at or over the alert threshold burn amber; red is reserved for system errors and never appears. No JavaScript; the only external file is the font. `--strict` still prints and writes everything, but exits with code 2 when the input had malformed or duplicate rows, which is what a scheduled job wants. Without it the exit code stays 0 and the problems are only reported.
+`--report` writes a standalone HTML report styled as what it is: the terminal run, printed. One typeface (JetBrains Mono), the literal command that produced it at the top, and the failure charts drawn in block characters (▁▂▅█), the same artifact the CLI prints, not a dashboard costume over it. Bars at or over the alert threshold burn amber; red is reserved for system errors and never appears. No JavaScript; the only external file is the font. `--strict` still prints and writes everything, but exits with code 2 when the input had malformed or duplicate rows, which is what a scheduled job wants. Without it the exit code stays 0 and the problems are only reported.
 
 No dependencies. Python 3 only.
 

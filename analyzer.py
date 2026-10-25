@@ -132,7 +132,7 @@ def write_html_report(rep, path, alert_pct, source_name="orders.csv"):
     lines = []
     lines.append('<div class="ln prompt"><span class="sigil">$</span> '
                  f'python3 analyzer.py {html.escape(source_name)} --report report.html</div>')
-    lines.append('<div class="ln dim">delivery-analyzer — failure report, printed from the run itself.'
+    lines.append('<div class="ln dim">delivery-analyzer, failure report, printed from the run itself.'
                  f' alert threshold {alert_pct}%. bars at or over it burn amber.</div>')
     lines.append('<div class="ln rule"></div>')
     lines.append(f'<div class="ln">orders analysed : {rep["total_orders"]}</div>')
@@ -175,7 +175,7 @@ def write_html_report(rep, path, alert_pct, source_name="orders.csv"):
     doc = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>delivery-analyzer — failure report</title>
+<title>delivery-analyzer, failure report</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">

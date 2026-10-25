@@ -1,4 +1,4 @@
-# Redesign Critique — Delivery Analyzer (Retro TUI report + English pass)
+# Redesign Critique, Delivery Analyzer (Retro TUI report + English pass)
 
 Redesign executed 2026-10-24 against `DESIGN-RESEARCH.md` §3.10 and the
 18-item anti-list. This file is the evidence record.
@@ -6,7 +6,7 @@ Redesign executed 2026-10-24 against `DESIGN-RESEARCH.md` §3.10 and the
 ## What changed
 
 - `analyzer.py`: the HTML report was rebuilt from a Georgia-and-cards page
-  with two SVG bar charts into a Retro TUI sheet — JetBrains Mono only,
+  with two SVG bar charts into a Retro TUI sheet, JetBrains Mono only,
   near-black `#0B0E0B`, phosphor `#4ADE80`, dim `#2C5F3F`, amber `#F5B83D`
   for failure data at or over the alert threshold, red banned. The header is
   the literal command that produced the report (`$ python3 analyzer.py
@@ -43,8 +43,8 @@ Redesign executed 2026-10-24 against `DESIGN-RESEARCH.md` §3.10 and the
 ## Anti-list items killed in this project
 
 KPI stat-card row (5), one-long-page card stack (6), rounded-everything +
-soft shadow (4), traffic-light palette (7), proportional numbers (16 —
-mono is tabular by birth), no brand mark (17), absent motion (18 — the run
+soft shadow (4), traffic-light palette (7), proportional numbers (16,
+mono is tabular by birth), no brand mark (17), absent motion (18, the run
 sequence, with a reduced-motion path), system-stack typography (1).
 
 ## Honest gaps
